@@ -1,0 +1,35 @@
+﻿  test.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  d:\pglearning\computer graphics\main\lab3\dependencies\glfw\include\glfw\glfw3.h(123): note: see previous definition of 'APIENTRY'
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(99): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(100): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(104): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(105): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(106): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(107): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(131): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(132): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(136): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(137): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(138): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(139): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(165): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(195): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(225): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(227): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(231): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(589): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(624): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(641): warning C4018: '<': signed/unsigned mismatch
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(659): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(661): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(665): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(721): warning C4018: '<': signed/unsigned mismatch
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(756): warning C4018: '<': signed/unsigned mismatch
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(801): warning C4018: '<': signed/unsigned mismatch
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(815): warning C4018: '<': signed/unsigned mismatch
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(850): warning C4018: '<': signed/unsigned mismatch
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(868): warning C4018: '<': signed/unsigned mismatch
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(891): warning C4018: '<': signed/unsigned mismatch
+d:\pglearning\computer graphics\main\lab3\project1\src\code\test.cpp(918): warning C4018: '<': signed/unsigned mismatch
+  Project1.vcxproj -> D:\PGLearning\Computer Graphics\Main\Lab3\Debug\Project1.exe

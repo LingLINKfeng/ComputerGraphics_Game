@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  ConsoleApplication1.cpp
+  Main.cpp
+  Model.cpp
+d:\pglearning\computer graphics\main\lab3\consoleapplication1\model.cpp(138): error C3867: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::data': non-standard syntax; use '&' to create a pointer to member
+  glm.cpp
+  Generating Code...

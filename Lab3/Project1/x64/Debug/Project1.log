@@ -1,0 +1,113 @@
+﻿  CubemapTexture.cpp
+  IndexBuffer.cpp
+  Keyboard.cpp
+d:\pglearning\computer graphics\main\lab3\project1\src\code\keyboard.cpp(14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\keyboard.cpp(32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Mesh.cpp
+d:\pglearning\computer graphics\main\lab3\project1\src\code\mesh.cpp(39): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model.cpp
+  PlayerMove.cpp
+d:\pglearning\computer graphics\main\lab3\project1\src\code\playermove.cpp(14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\playermove.cpp(41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Renderer.cpp
+  Terrain.cpp
+  Texture.cpp
+  glm.cpp
+  stb_image.cpp
+  VertexArray.cpp
+d:\pglearning\computer graphics\main\lab3\project1\src\code\vertexarray.cpp(31): warning C4312: 'type cast': conversion from 'unsigned int' to 'const void *' of greater size
+  VertexBuffer.cpp
+  main.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  d:\pglearning\computer graphics\main\lab3\dependencies\glfw\include\glfw\glfw3.h(123): note: see previous definition of 'APIENTRY'
+d:\pglearning\computer graphics\main\lab3\project1\src\code\main.cpp(42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\main.cpp(43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\main.cpp(47): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\main.cpp(48): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\main.cpp(49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\main.cpp(50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pglearning\computer graphics\main\lab3\project1\src\code\main.cpp(220): warning C4129: 'M': unrecognized character escape sequence
+d:\pglearning\computer graphics\main\lab3\project1\src\code\main.cpp(220): warning C4129: 'g': unrecognized character escape sequence
+  Shader.cpp
+  Generating Code...
+CubemapTexture.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+Texture.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+IndexBuffer.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Terrain.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+VertexBuffer.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+IndexBuffer.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Terrain.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+VertexBuffer.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+IndexBuffer.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+Terrain.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+VertexBuffer.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+Keyboard.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "public: struct glm::vec<3,float,0> __cdecl Keyboard::processInput(struct GLFWwindow *,float &,float &)" (?processInput@Keyboard@@QEAA?AU?$vec@$02M$0A@@glm@@PEAUGLFWwindow@@AEAM1@Z)
+PlayerMove.obj : error LNK2001: unresolved external symbol glfwSetWindowShouldClose
+Keyboard.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "public: struct glm::vec<3,float,0> __cdecl Keyboard::processInput(struct GLFWwindow *,float &,float &)" (?processInput@Keyboard@@QEAA?AU?$vec@$02M$0A@@glm@@PEAUGLFWwindow@@AEAM1@Z)
+PlayerMove.obj : error LNK2001: unresolved external symbol glfwGetKey
+Keyboard.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function "public: float __cdecl Keyboard::GetTime(float &,float &)" (?GetTime@Keyboard@@QEAAMAEAM0@Z)
+PlayerMove.obj : error LNK2001: unresolved external symbol glfwGetTime
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Terrain.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+VertexArray.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+Terrain.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Terrain.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+VertexArray.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribIPointer
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+VertexArray.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+VertexArray.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+Model.obj : error LNK2019: unresolved external symbol "public: __cdecl Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QEAA@XZ) referenced in function "void __cdecl `dynamic initializer for 'import''(void)" (??__Eimport@@YAXXZ)
+Model.obj : error LNK2019: unresolved external symbol "public: __cdecl Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QEAA@XZ) referenced in function "void __cdecl `dynamic atexit destructor for 'import''(void)" (??__Fimport@@YAXXZ)
+Model.obj : error LNK2019: unresolved external symbol "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@PEBDI@Z) referenced in function "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: char const * __cdecl Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QEBAPEBDXZ) referenced in function "private: void __cdecl Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadModel@Model@@AEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol aiGetMaterialTextureCount referenced in function "public: unsigned int __cdecl aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QEBAIW4aiTextureType@@@Z)
+Model.obj : error LNK2019: unresolved external symbol aiGetMaterialTexture referenced in function "public: enum aiReturn __cdecl aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z)
+Model.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+Terrain.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+Texture.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+VertexArray.obj : error LNK2001: unresolved external symbol __imp___glewDeleteVertexArrays
+VertexBuffer.obj : error LNK2001: unresolved external symbol __imp___glewBufferSubData
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetInputMode referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetScrollCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSwapInterval referenced in function main
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewUniform1f
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewUniform3f
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewUniform4f
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewValidateProgram
+D:\PGLearning\Computer Graphics\Main\Lab3\Dependencies\GLFW\lib-vc2017\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\PGLearning\Computer Graphics\Main\Lab3\Dependencies\assimp-4.1.0\lib\assimp-vc140-mt.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\PGLearning\Computer Graphics\Main\Lab3\Dependencies\freeglut\lib\freeglut.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\PGLearning\Computer Graphics\Main\Lab3\Dependencies\glew-1.10.0\lib\Release\Win32\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\PGLearning\Computer Graphics\Main\Lab3\x64\Debug\Project1.exe : fatal error LNK1120: 51 unresolved externals
